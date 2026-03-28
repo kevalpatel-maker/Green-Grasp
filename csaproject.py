@@ -49,7 +49,7 @@ df=pd.DataFrame(data)
 #__Main__
 print("|||–––––––––––GreenGrasp : Real-Time Environmental('AQI') Awareness & Impact Analyzer–––––––––––|||")
 print("--------------------------------------------------------------------------------------------------------------------")
-input("ENTER")
+input("PRESS ENTER")
 print("Select any State :")
 for i, state in enumerate(data['state']):
     print(f"{i+1}. {state}")
